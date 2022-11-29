@@ -1,0 +1,17 @@
+*#*
+*.*~
+*.iml
+*.log
+*.save
+.idea/
+.migrate
+config-firebase.json
+logs/
+node_modules/
+out/
+root/
+sandbox
+uploads/
+.history
+.env
+.package-lock.json

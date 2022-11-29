@@ -1,0 +1,303 @@
+{
+  "ACTIONS": {
+    "DELETE_USER": "delete_user"
+  },
+  "ANALYTICS": {
+    "EVENTS": {
+      "IBAN_ADDED": "iban_added",
+      "KYC_CONFIRMED": "kyc_confirmed",
+      "KYC_INITIATED": "kyc_initiated",
+      "LOGIN": "login",
+      "LOGOFF": "logoff",
+      "ON_BOARDED_AFTER_LANDING_PAGE_VISIT": "on_boarded_after_landing_page_visit",
+      "REFERRED_BY_FRIEND": "referred_by_friend",
+      "REGISTER": "register",
+      "TOPUP": "topup",
+      "TOPUP_CREDITCARD": "topup_creditcard",
+      "TOPUP_SOFORT": "topup_sofort",
+      "TOPUP_TRANSFER": "topup_transfer",
+      "TRANSACTION_COUNT": "transaction_count",
+      "TRANSACTION_DEPOSIT_CANCELLED": "deposit_cancelled",
+      "TRANSACTION_DEPOSIT_CONFIRMED": "deposit_confirmed",
+      "TRANSACTION_DEPOSIT_INITIATED": "deposit_initiated",
+      "TRANSACTION_TRANSFER_EXPIRED": "transfer_expired",
+      "TRANSACTION_TRANSFER_REGISTERED": "transfer_registered",
+      "TRANSACTION_TRANSFER_UNREGISTERED": "transfer_unregistered",
+      "TRANSACTION_WITHDRAW_CANCELLED": "withdrawal_cancelled",
+      "TRANSACTION_WITHDRAW_CONFIRMED": "withdrawal_confirmed",
+      "TRANSACTION_WITHDRAW_EXPIRED": "withdrawal_expired",
+      "TRANSACTION_WITHDRAW_INITIATED": "withdrawal_initiated",
+      "USER_REGISTRATION_COMPLETE": "user_registration_complete",
+      "USER_DELETED": "user_deleted"
+    }
+  },
+  "COMMISSIONS_TYPE": {
+    "FIXED": "fixed",
+    "PERCENT": "percent"
+  },
+  "DEVICE_TYPE": {
+    "PHONE": "phone",
+    "TERMINAL": "terminal"
+  },
+  "FEES_PAID_BY_TYPE": {
+    "CUSTOMER": {
+      "description": "Fees to be paid by the customer",
+      "name": "customer"
+    },
+    "PARTNER": {
+      "description": "Fees to be paid by partner",
+      "name": "partner"
+    }
+  },
+  "FEES_PERCENT_OF_TYPE": {
+    "AMOUNT": {
+      "description": "Transaction amount",
+      "name": "amount"
+    },
+    "FIXED": {
+      "description": "Fixed portion of the fees",
+      "name": "fixed"
+    }
+  },
+  "FEES_STATUS_TYPE": {
+    "INVOICED": "invoiced",
+    "OPEN": "open",
+    "PAID": "paid"
+  },
+  "FEES_VARIABLE_TYPE": {
+    "FIXED": "fixed",
+    "PERCENT": "name"
+  },
+  "HEADER_PARAMS": {
+    "CDN_LOOP": "cdn-loop",
+    "CF_CONNECTING_IP": "cf-connecting-ip",
+    "CF_IP_COUNTRY": "cf-ipcountry",
+    "CF_REQUEST_ID": "cf-request-id",
+    "CF_VISITOR": "cf-visitor",
+    "HOST": "host",
+    "VERSION_APP": "x-version-app",
+    "VERSION_SERVER": "x-version-server"
+  },
+  "HTTP_CODES": {
+    "BAD_REQUEST": 400,
+    "DUPLICATE_VALUE": 409,
+    "FORBIDDEN": 403,
+    "INTERNAL_SERVER_ERROR": 500,
+    "METHOD_NOT_ALLOWED": 405,
+    "MOVED_PERMANENTLY": 301,
+    "NOT_ACCEPTABLE": 406,
+    "NOT_FOUND": 404,
+    "NO_CONTENT_FOUND": 204,
+    "OK": 200,
+    "PERMANENT_REDIRECT": 308,
+    "UNAUTHORIZED": 401,
+    "UPGRADE_REQUIRED": 426,
+    "VALIDATION_ERROR": 422
+  },
+  "INTEGRATIONS": {
+    "SEGMENT": {
+      "ACTION": {
+        "IDENTIFY": "identify",
+        "TRACK": "track"
+      }
+    }
+  },
+  "MERCHANT_CATEGORY": {
+    "AUTOMOTIVE": {
+      "name": "AUTOMOTIVE",
+      "subcategory": {
+        "CAR-WASH": {
+          "name": "CAR-WASH",
+          "text": "Car wash"
+        },
+        "GAS-STATION": {
+          "name": "GAS-STATION",
+          "text": "Gas station"
+        },
+        "TAXI": {
+          "name": "TAXI",
+          "text": "Taxi"
+        }
+      },
+      "text": "Automotive"
+    },
+    "FOOD-SERVICE": {
+      "name": "FOOD-SERVICE",
+      "subcategory": {
+        "BAKERY": {
+          "name": "BAKERY",
+          "text": "Bakery"
+        },
+        "COFFEE-SHOP": {
+          "name": "COFFEE-SHOP",
+          "text": "Coffee shop"
+        },
+        "FOOD-TRUCK": {
+          "name": "FOOD-TRUCK",
+          "text": "Food truck"
+        },
+        "ONLINE-DELIVERY": {
+          "name": "ONLINE-DELIVERY",
+          "text": "Delivery"
+        },
+        "PIZZERIA": {
+          "name": "PIZZERIA",
+          "text": "Pizzeria"
+        },
+        "RESTAURANT": {
+          "name": "RESTAURANT",
+          "text": "Restaurant"
+        }
+      },
+      "text": "Food service"
+    },
+    "GENERAL": {
+      "name": "GENERAL",
+      "text": "General"
+    },
+    "HEALTH-CARE": {
+      "name": "HEALTH-CARE",
+      "subcategory": {
+        "PHARMACY": {
+          "name": "PHARMACY",
+          "text": "Pharmacy"
+        }
+      },
+      "text": "Health care"
+    },
+    "HOSPITALITY": {
+      "name": "HOSPITALITY",
+      "subcategory": {
+        "BAR": {
+          "name": "BAR",
+          "text": "Bar"
+        },
+        "CLUB": {
+          "name": "CLUB",
+          "text": "Club"
+        },
+        "HOTEL": {
+          "name": "HOTEL",
+          "text": "Hotel"
+        }
+      },
+      "text": "Hospitality"
+    },
+    "KIOSK": {
+      "name": "KIOSK",
+      "text": "Kiosk"
+    },
+    "SUPERMARKET": {
+      "name": "SUPERMARKET",
+      "text": "Supermarket"
+    }
+  },
+  "MERCHANT_ROLE": {
+    "MASTER": "master",
+    "WORKER": "worker"
+  },
+  "NO_REASON_PROVIDED": "no_reason_provided",
+  "OAUTH2_GRANT_SCOPES": {
+    "MERCHANT": {
+      "BALANCE": {
+        "READ": "merchant.balance:read",
+        "WRITE": "merchant.balance:read_write"
+      },
+      "DETAILS": {
+        "READ": "merchant.details:read",
+        "WRITE": "merchant.details:read_write"
+      }
+    },
+    "TRANSACTION": {
+      "READ": "transaction:read",
+      "WRITE": "transaction:read_write"
+    },
+    "USER": {
+      "BALANCE": {
+        "READ": "user.balance:read",
+        "WRITE": "user.balance:read_write"
+      },
+      "DETAILS": {
+        "READ": "user.details:read",
+        "WRITE": "user.details:read_write"
+      }
+    }
+  },
+  "OAUTH2_GRANT_TYPE": {
+    "AUTHORIZATION_CODE": "authorization_code",
+    "CLIENT_CREDENTIALS": "client_credentials"
+  },
+  "ORDER_STATUS": {
+    "CANCELLED": "cancelled",
+    "CONFIRMED": "confirmed",
+    "DELIVERED": "delivered",
+    "EXPIRED": "expired",
+    "FAILED": "failed",
+    "PENDING": "pending",
+    "REJECTED": "rejected"
+  },
+  "PAYMENT_METHOD": {
+    "ACCOUNT": {
+      "description": "Bank/Account",
+      "name": "ACCOUNT"
+    },
+    "APPLE_PAY": {
+      "description": "Apple Pay",
+      "name": "APPLE_PAY"
+    },
+    "BALANCE": {
+      "description": "Balance",
+      "name": "BALANCE"
+    },
+    "CREDIT_CARD": {
+      "description": "Credit card",
+      "name": "CREDIT_CARD"
+    },
+    "GOOGLE_PAY": {
+      "description": "Google Pay",
+      "name": "GOOGLE_PAY"
+    }
+  },
+  "PAYMENT_STATUS": {
+    "AUTHORIZED": "authorized",
+    "CANCELLED": "cancelled",
+    "CAPTURED": "captured",
+    "FAILED": "failed",
+    "PENDING": "pending"
+  },
+  "TAG": {
+    "USER": ["customer", "employee", "trial"]
+  },
+  "USER_KYC_STATUS": {
+    "APPROVED": "approved",
+    "BLOCKED": "blocked",
+    "CONTACT_US": "contact_us",
+    "PENDING": "pending",
+    "REJECTED": "rejected",
+    "UNVERIFIED": "unverified"
+  },
+  "USER_NOTIFICATION_CHANNEL": {
+    "NONE": "",
+    "NOTIFICATION": "notification",
+    "SMS": "sms"
+  },
+  "USER_STATUS": {
+    "ACTIVE": "active",
+    "BLOCKED": "blocked",
+    "DISABLED": "disabled",
+    "INACTIVE": "inactive",
+    "INVITED": "invited"
+  },
+  "USER_TYPE": {
+    "SUPERADMIN": "superadmin",
+    "USER": "user",
+    "ADMIN": "admin",
+    "TEAMLEADER": "teamleader"
+  },
+  "APPOINTMENT_STATUS": {
+    "CANCELLED": "cancelled",
+    "BOOKED": "booked",
+    "CALLEND": "callend",
+    "RESCHEDULED": "rescheduled"
+  }
+}

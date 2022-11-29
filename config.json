@@ -1,0 +1,17 @@
+{
+  "MONGODB": {
+    "GLOBAL": {
+      "DATABASE": {
+        "VUAUTOMATION": {
+          "COLLECTION": {
+            "ADMIN": "admin",
+            "ROLE": "role"
+          },
+          "NAME": "vu-automation"
+        }
+      },
+      "URI": "mongodb+srv://henil057:henil@057@vu-automation.sjufamh.mongodb.net/vu-automation",
+      "USE_TEST_PIN": "true"
+    }
+  }
+}
